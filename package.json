@@ -1,0 +1,35 @@
+{
+  "name": "passport-lately",
+  "version": "0.1.1",
+  "description": "Lately authentication strategy for Passport",
+  "keywords": [
+    "passport",
+    "lately",
+    "auth",
+    "oauth",
+    "oauth2"
+  ],
+  "author": {
+    "name": "Greg Hamel",
+    "email": "greg@trylately.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TryLately/passport-lately.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TryLately/passport-lately/issues"
+  },
+  "license": "MIT",
+  "main": "./lib",
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "passport-oauth": "1.x.x"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
